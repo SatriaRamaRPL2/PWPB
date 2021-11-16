@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ECECEC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500px"
+            android:background="@drawable/bgheader"
+            android:orientation="horizontal"
+            android:paddingTop="90px">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/userpic" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Omar Adhitya Putra Ashari"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="2dp"
+                    android:text="USD Wallet"
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="390dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="280px">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                
+                <LinearLayout
+                    android:layout_width="97.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="120px"
+                        android:layout_height="120px"
+                        android:src="@drawable/iclist"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Review"
+                        android:textSize="40px"
+                        android:textFontWeight="600"
+                        android:paddingTop="10px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="97.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="120px"
+                        android:layout_height="120px"
+                        android:src="@drawable/icnet"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Network"
+                        android:textSize="40px"
+                        android:textFontWeight="600"
+                        android:paddingTop="10px" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="97.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="120px"
+                        android:layout_height="120px"
+                        android:src="@drawable/icplug"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Plugins"
+                        android:textSize="40px"
+                        android:textFontWeight="600"
+                        android:paddingTop="10px" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="97.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="120px"
+                        android:layout_height="120px"
+                        android:src="@drawable/icapps"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Apps"
+                        android:textSize="40px"
+                        android:textFontWeight="600"
+                        android:paddingTop="10px" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/icguide"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Need a Guide ?"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textFontWeight="600"
+            android:textColor="#232323"
+            />
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="We will give direction to the new user"
+            android:paddingTop="20px"
+            android:textFontWeight="400"
+            android:textColor="#989898"
+            android:textSize="14dp"
+            android:layout_gravity="center_horizontal"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Guide me"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff"
+            android:background="@drawable/bgbtnguide"
+            />
+    </LinearLayout>
+</LinearLayout>
